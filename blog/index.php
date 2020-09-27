@@ -2,24 +2,16 @@
 <html lang="en">
 	<head>
 		<title>Blog</title>
-	
-		<link rel="stylesheet" type="text/css" href="/sheet1.css">
-		<link rel="bookmark icon" type="image/png" href="/images/h2.png">
-	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 	</head>
 
 	<body>
-		<h1>My Blog</h1>
-	
-		<a id='top'></a>
-	
-		<?php
-			readfile('../nav.html');
-		?>
+		<h1>Hayden's Blog Script</h1>
 
-		<p>This is my blog, where I'll post website-related and personal updates. Want to be notified of new posts? Subscribe to my <a href="/blog.xml">RSS feed</a>.</p>
+		<a id='top'></a>
+
+		<p>Add a short description of your blog here.</p>
 
 		<?php
 			$posts = scandir("./posts", 1);
@@ -39,7 +31,7 @@
 		<div class="menu">
 			<a href="#top">Top of page</a>
 		</div>
-		
+
 		<a id="bottom"></a>
 	</body>
 </html>
