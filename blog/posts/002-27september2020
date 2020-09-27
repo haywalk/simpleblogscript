@@ -1,0 +1,13 @@
+<a id="27september2020"></a>
+
+<h3>27 September 2020 - SimpleBlogScript</h3>
+
+<a href="view.php?post=002-27september2020">View/link this post</a>
+
+<p>This is <a href="https://www.haywalk.ca">haywalk</a>'s blog script. The code can be found <a href="https://github.com/haywalk/simpleblogscript">here</a>.</p>
+
+<p><b>Steps to posting:</b> To post to this blog, add a plaintext file (with no *.txt ending), and name it <code>###-DDmonthYYYY</code>, where <code>###</code> is the post number (your first post should be 1, etc.), <code>DD</code> is the day (numerical), <code>month</code> is the month (written/lowercase), and <code>YYYY</code> is the year (numerical).</p>
+
+<p>Inside the document, add a line with <code>&lt;a id="DDmonthYYYY"&gt;</code>, a title header somewhere (but you don't necessarily have to add one), and a 'view' link that links to <code>view.php?post={FILENAME}</code>, where <code>{FILENAME}</code> is the filename of your post. Then write your post! That should be it!</p>
+
+<p>Note: You can just copy these example posts and change the tags :^)</p>
