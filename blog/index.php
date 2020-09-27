@@ -20,7 +20,9 @@
 				$file = "./posts/".$posts[$i];
 				if (file_exists($file)) {
 					echo "<hr>";
-					readfile($file);
+					echo "<a href='view.php?post=".$posts[$i]."'>View/link this post</a>";
+                                        echo "<a id='".substr($posts[$i], 4)."'></a>";
+                                        readfile($file);
 				}
 
 			}
